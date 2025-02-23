@@ -1,14 +1,13 @@
----
-language: ro
-tags:
-- bert
-- fill-mask
-license: mit
----
 
-# bert-base-romanian-cased-v1
+# Nitro-NLP: Satire Detection in Romanian News
 
-The BERT **base**, **cased** model for Romanian, trained on a 15GB corpus, version ![v1.0](https://img.shields.io/badge/v1.0-21%20Apr%202020-ff6666)
+## Introduction
+
+This project focuses on detecting satirical content in Romanian news articles using a fine-tuned NLP model. The model was developed during the SmartHack by ASMI hackathon and trained on a custom dataset containing both satirical and non-satirical news articles. The goal was to create a reliable classifier that could distinguish between the two types of content with high accuracy. The project highlights the importance of proper text preprocessing, including tokenization and dataset cleaning, to ensure the model's performance and generalization capabilities.
+
+The primary goal of this project was to fine-tune a pre-existing NLP model to classify Romanian news articles as either satirical or non-satirical. After evaluating several models, I selected one that demonstrated strong performance on similar text classification tasks. The dataset underwent a thorough preprocessing pipeline, including tokenization and cleaning, which were crucial steps to ensure the model's accuracy and robustness. Proper preprocessing is essential in NLP tasks, as it directly impacts the model's ability to understand and generalize from the input data. The fine-tuning process was tailored to the specific nuances of the Romanian language, ensuring optimal performance on the task at hand.
+
+## bert-base-romanian-cased-v1
 
 ### How to use
 
