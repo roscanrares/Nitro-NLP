@@ -55,31 +55,8 @@ The model is trained on the following corpora (stats in the table below are afte
 
 ### Citation
 
-If you use this model in a research paper, I'd kindly ask you to cite the following paper:
+
 
 ```
 Stefan Dumitrescu, Andrei-Marius Avram, and Sampo Pyysalo. 2020. The birth of Romanian BERT. In Findings of the Association for Computational Linguistics: EMNLP 2020, pages 4324–4328, Online. Association for Computational Linguistics.
 ```
-
-or, in bibtex:
-
-```
-@inproceedings{dumitrescu-etal-2020-birth,
-    title = "The birth of {R}omanian {BERT}",
-    author = "Dumitrescu, Stefan  and
-      Avram, Andrei-Marius  and
-      Pyysalo, Sampo",
-    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
-    month = nov,
-    year = "2020",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2020.findings-emnlp.387",
-    doi = "10.18653/v1/2020.findings-emnlp.387",
-    pages = "4324--4328",
-}
-```
-
-#### Acknowledgements
-
-- We'd like to thank [Sampo Pyysalo](https://github.com/spyysalo) from TurkuNLP for helping us out with the compute needed to pretrain the v1.0 BERT models. He's awesome!
